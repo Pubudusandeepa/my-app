@@ -8,7 +8,7 @@ const CountDown = () => {
   };
 
   const decrementValue = () => {
-    setCount(count - 2);
+    setCount(count - 4);
   };
 
   return (
