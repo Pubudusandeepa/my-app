@@ -4,7 +4,7 @@ const CountDown = () => {
   const [count, setCount] = useState(0);
 
   const incrementValue = () => {
-    setCount(count + 1);
+    setCount(count + 4);
   };
 
   const decrementValue = () => {
