@@ -12,8 +12,8 @@ const CountDown = () => {
   };
 
   return (
-    <div>
-      <div>
+    <div style={{ display: "flex" }}>
+      <div style={{ flexDirection: "space-between" }}>
         <p>count: {count}</p>
         <button
           style={{ background: "light-blue", padding: "5px" }}
