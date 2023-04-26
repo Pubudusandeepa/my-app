@@ -9,5 +9,5 @@ phases:
       - npm run build
   post_build:
     commands:
-      - aws s3  sync   ./build s3://www.oncloudconsulting1/
+      # - aws s3  sync   ./build s3://www.oncloudconsulting1/
       - aws cloudfront create-invalidation --distribution-id E12G59HB9FP52O --path /\*
